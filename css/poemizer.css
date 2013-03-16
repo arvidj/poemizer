@@ -1,0 +1,12 @@
+#poemizer .container {
+	width: 640px;
+}
+
+textarea {
+	width: 626px;
+	min-height: 300px;
+}
+
+.step .btn {
+	float: right;
+}

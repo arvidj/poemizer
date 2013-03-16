@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <!-- Bootstrap -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/poemizer.css" rel="stylesheet" media="screen">
+  </head>
+  <body id="poemizer">
+	  <div class="container">
+		  <h1>Poemizer!</h1>
+		  <p id="introduction">The line-by-line method is one of several methods for
+			  memorizing poems, and the one that seems to work best for me. Here
+			  is a tool that helps you to use this method.</p>
+		  <div class="step" id="step-1">
+			  <h2>Step 1. Input your poem</h2>
+			  <p class="explanation">Input your poem in the text-area:</p>
+			  <textarea id="poem"></textarea>
+			  <p>Or choose one of these poems:</p>
+			  <ul id="poems"></ul>
+
+			  <a class="btn btn-success" href="javascript:;">Gimme culture <i class="icon-white icon-play"></i></a>
+		  </div>
+		  <script src="http://code.jquery.com/jquery.js"></script>
+		  <script src="js/poemizer.js"></script>
+		  <script src="js/jquery.elastic.source.js"></script>
+		  <script src="bootstrap/js/bootstrap.min.js"></script>
+	  </div>
+  </body>
+</html>
