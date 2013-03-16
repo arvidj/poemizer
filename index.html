@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <!-- Bootstrap -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/poemizer.css" rel="stylesheet" media="screen">
+  </head>
+  <body id="poemizer">
+	  <div class="container">
+		  <h1>Poemizer!</h1>
+		  <p id="introduction">The line-by-line method is one of several methods for
+			  memorizing poems, and the one that seems to work best for me. Here
+			  is a tool that helps you to use this method.</p>
+
+		  <div class="step" id="step-1">
+			  <h2>Step 1. Input your poem</h2>
+			  <p class="explanation">Input your poem in the text-area:</p>
+			  <textarea class="poem"></textarea>
+			  <p>Or choose one of these poems:</p>
+			  <ul id="poems"></ul>
+
+		  </div>
+
+		  <div class="step" id="step-2">
+			  <h2>Step 2. Read the poem out loud</h2>
+			  <p class="explanation">The second step is simple: read
+			  the whole poem out loud to your self.</p>
+
+			  <pre class="poem"></pre>
+		  </div>
+
+		  <div class="step" id="step-3">
+			  <h2>Step 3. Step by step</h2>
+			  <p class="chunk-1 explanation">We'll now start memorizing the
+			  poem. To start out, read each line that is displayed in
+			  the box, then look away from the screen or close your
+			  eyes and repeat the line you just read.</p>
+
+			  <pre class="poem"></pre>
+		  </div>
+
+		  <div class="step" id="step-4">
+			  <h2>Step 4. No more steps</h2>
+			  <p class="explanation">By now, you should be able to
+			  repeat all of the poem. If you find your self struggling
+			  to do this, repeat the procedure from the beginning. Try
+			  repeating the poem out loud, then correct yourself:</p>
+
+			  <pre class="poem"></pre>
+		  </div>
+
+		  <a id="continue" class="btn btn-success" href="javascript:;">
+			  <span class="lbl">Gimme culture</span>
+			  <i class="icon-white icon-play"></i>
+		  </a>
+
+		  <script src="http://code.jquery.com/jquery.js"></script>
+		  <script src="js/poemizer.js"></script>
+		  <script src="js/jquery.elastic.source.js"></script>
+		  <script src="bootstrap/js/bootstrap.min.js"></script>
+	  </div>
+  </body>
+</html>
