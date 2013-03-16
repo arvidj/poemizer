@@ -17,10 +17,6 @@ jQuery(function ($) {
 			"Nothing beside remains. Round the decay\n" +
 			"Of that colossal wreck, boundless and bare\n" +
 			"The lone and level sands stretch far away.\n",
-<<<<<<< HEAD
-		"Demain, dès l'aube - Viktor Hugo": "",
-		"RIMBAUD : Ma Bohème (Fantaisie oct. 1870)": ""
-=======
 
 		"Ma Bohème - Rimbaud":
 		"Je m'en allais, les poings dans mes poches crevées ;\n" +
@@ -56,7 +52,6 @@ jQuery(function ($) {
 			"Ni les voiles au loin descendant vers Harfleur,\n" +
 			"Et quand j'arriverai, je mettrai sur ta tombe\n" +
 			"Un bouquet de houx vert et de bruyère en fleur.\n"
->>>>>>> master
 	};
 	var step = 0, poem = '', poem_lines, chunk_size, chunk;
 
