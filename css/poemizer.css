@@ -7,6 +7,10 @@ textarea {
 	min-height: 300px;
 }
 
-.step .btn {
+.step {
+	display: none;
+}
+
+#continue {
 	float: right;
 }
